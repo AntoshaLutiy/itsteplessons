@@ -4,7 +4,7 @@ def назва_функції(аргументи):
 
 
 назва_функції(значення)
-"""
+
 
 def first_function():
     print("Hello students!")
@@ -20,3 +20,9 @@ def second_function():
 
 second_function()
 print(second_function())
+"""
+def hello(arg_1, arg_2):
+    return arg_1 + arg_2
+
+print(hello)
+print(hello("Hello", "World!"))
