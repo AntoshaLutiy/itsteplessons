@@ -53,6 +53,7 @@ def check_password(correct_password):
         attempts += 1
     print("Password not match")
 
+
 SPEED_OF_LIGHT = 299792458
 def light_travel(distance):
     return distance / SPEED_OF_LIGHT
